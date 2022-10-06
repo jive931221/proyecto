@@ -1,0 +1,83 @@
+body {
+
+    font: 0.9em/1.4 Arial, Helvetica;
+    background: #7F7FD5;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.container {
+    background-color: white;
+    
+
+
+}
+
+header {
+    background-color: white;
+
+}
+
+.Hero {
+    background-image: url(../img/principal.jpg);
+    height: 35rem;
+    background-size: cover;
+    background-position: center center;
+}
+
+H1 {
+    text-align: center;
+    color: black;
+    margin-bottom: auto;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+}
+
+.list-group {
+    color: white;
+    text-align: center;
+}
+
+.list-group nav a {
+    margin-bottom: 1em;
+}
+
+
+
+@media (max-width:780px) {
+    .card-body {
+        font-size: 10px;
+    }
+
+.carta{
+    width: 125%;
+}
+
+@media (min-width: 768px){
+    .producto img{
+        height: 45rem;
+        width: 100%;
+        object-fit: cover;
+
+    }
+    .mx-auto{
+        width: 125%;
+    }
+}
+
+
+/*nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0em 1em 2em 1em;
+}
+*/
+.
