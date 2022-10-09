@@ -10,28 +10,26 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&family=Montserrat:ital,wght@0,100;0,300;0,400;0,700;1,100&family=Noto+Sans+Mono:wght@400;500&family=Open+Sans:ital,wght@0,300;0,800;1,700&family=Oswald:wght@200&family=Roboto:ital,wght@1,100&display=swap"
-        rel="stylesheet">
+
 </head>
 
 <body>
-    <header>
-        <H1> MUEBLERIA <span style="color: #037bc0;"> AHORRA MAS</span></H1>
-        <div class="border-top py-4">
-            <div class="navbar navbar-expand-lg container navbar-light">
-                <a class="navbar-brand nombre-sitio d-lg-none fs-2 fw-bold text-uppercase" href="#"> MUEBLERIA AHORRA
+    <header class="bg-dark">
+        <H1 class="text-light"> MUEBLERIA <span style="color: #037bc0;"> AHORRA +</span></H1>
+        <div class="border-top py-4 bg-dark">
+            <div class="navbar navbar-expand-lg container navbar-light bg-dark">
+                <a class="navbar-brand nombre-sitio d-lg-none fs-5 fw-bold text-light" href="#"> MUEBLERIA AHORRA
                     MAS</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navegacion">
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navegacion">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div id="navegacion" class="collapse navbar-collapse">
-                    <nav class="navbar-nav container d-flex flex-md-row justify-content-md-between text-center">
-                        <a class="text-dark text-decoration-none " href="#">Nosotros</a>
-                        <a class="text-dark text-decoration-none" href="#">Tienda</a>
-                        <a class="text-dark text-decoration-none" href="#">Blog</a>
-                        <a class="text-dark text-decoration-none" href="#">Galeria</a>
-                        <a class="text-dark text-decoration-none" href="#">Contacto</a>
+                    <nav class="navbar-nav container d-flex flex-md-row justify-content-md-between text-center bg-dark fs-5">
+                        <a class="text-light text-decoration-none " href="#">Nosotros</a>
+                        <a class="text-light text-decoration-none" href="#">Tienda</a>
+                        <a class="text-light text-decoration-none" href="#">Blog</a>
+                        <a class="text-light text-decoration-none" href="#">Galeria</a>
+                        <a class="text-light text-decoration-none" href="#">Contacto</a>
                     </nav>
                 </div>
             </div>
@@ -41,42 +39,22 @@
     <main>
         <div class="container text-center pt-2 mt-4 ">
             <div class="p-2 text-center">
-                <h2>Nuestros productos</h2>
+                <h2 class="fs-1">Nuestros productos</h2>
             </div>
-            <!--<div class="card shadow mx-auto mt-4 w-75 carta">
-                <div class="row g-0">
-                    <div class="col-md-8 col-lg-8 producto col-sm-12">
-                        <img src="img/producto1.jpg" alt="principal" class="img-fluid rounded-start" />
-                    </div>
-                    <div class="col-md-4 col-sm-12 col-lg-4 d-grid gap-2">
-                        <div class="card-body bg-primary">
-                            <H3 class="card-title">Producto 1</H3>
-                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum commodi
-                                obcaecati ,
-                                obcaecati
-                                mollitia corrupti.</p>
-                            <P class="fs-3 fw-bold">$10,000.000</P>
-                            <a href="#" class="btn btn-sm btn-success fw-bold"> Agregar al carrito</a>
-                        </div>
-                    </div>
+            <div class="row md-4 g-0 pt-5">
+                <div class="col-md-8 shadow producto">
+                    <img src="img/producto1.jpg" alt="principal" class="img-fluid" />
                 </div>
-            </div>-->
-            <div class="row md-4 h-25 g-0 pt-5 mx-auto">
-                <div class="col-md-8 producto">
-                    <img src="img/producto1.jpg" alt="principal" class="img-fluid rounded-start" />
-                </div>
-                <div class="col-md-4 bg-primary d-flex flex-column justify-content-center p-5">
+                <div class="col-md-4 shadow bg-primary d-flex flex-column justify-content-center p-5 producto1">
                     <H3 class="card-title">Producto 1</H3>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum commodi
+                    <p class="text-light fs-5"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum commodi
                         obcaecati ,
                         obcaecati
                         mollitia corrupti.</p>
-                    <P class="fs-3 fw-bold">$10,000.000</P>
-                    <a href="#" class="btn btn-sm btn-success fw-bold"> Agregar al carrito</a>
+                    <P class="fs-3 fw-bold text-light">$10,000.000</P>
+                    <a href="#" class="btn btn-sm btn-success fw-bold fs-5 border-0"> Agregar al carrito</a>
                 </div>
             </div>
-
-
             <div class="container mx-auto">
                 <div class="row mt-4">
                     <div class="col-sm-12 col-md-6 col-lg-6 py-2">
@@ -86,12 +64,12 @@
                             </div>
                             <div class="card-body d-grid gap-2 bg-primary">
                                 <H3>Producto 2</H3>
-                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum commodi
+                                <p class="text-light fs-6"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum commodi
                                     obcaecati ,
                                     obcaecati
                                     mollitia corrupti.</p>
-                                <P class="fs-3 fw-bold">$10,000.000</P>
-                                <a href="#" class="btn btn-sm btn-success"> Agregar al carrito</a>
+                                <P class="fs-3 fw-bold text-light">$10,000.000</P>
+                                <a href="#" class="btn btn-sm btn-success fw-bold fs-5 border-0"> Agregar al carrito</a>
                             </div>
                         </div>
                     </div>
@@ -102,12 +80,12 @@
                             </div>
                             <div class="card-body d-grid gap-2 bg-primary">
                                 <H3>Producto 3</H3>
-                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum commodi
+                                <p class="text-light fs-6"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum commodi
                                     obcaecati ,
                                     obcaecati
                                     mollitia corrupti.</p>
-                                <P class="fs-3 fw-bold">$10,000.000</P>
-                                <a href="#" class="btn btn-sm btn-success"> Agregar al carrito</a>
+                                <P class="fs-3 fw-bold fw-bold text-light">$10,000.000</P>
+                                <a href="#" class="btn btn-sm btn-success fw-bold fs-5 border-0"> Agregar al carrito</a>
                             </div>
                         </div>
                     </div>
@@ -119,14 +97,14 @@
                         <div>
                             <img src="img/producto4.jpg" alt="producto 5" class="card-img-top" />
                         </div>
-                        <div class="card-body d-grid gap-2 btn-primary">
+                        <div class="card-body d-grid gap-2 bg-primary">
                             <H3>Producto 4</H3>
-                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum commodi
+                            <p class="text-light fs-6"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum commodi
                                 obcaecati ,
                                 obcaecati
                                 mollitia corrupti.</p>
-                            <P class="fs-3 fw-bold">$10,000.000</P>
-                            <a href="#" class="btn btn-sm btn-success"> Agregar al carrito</a>
+                            <P class="fs-3 fw-bold text-light">$10,000.000</P>
+                            <a href="#" class="btn btn-sm btn-success fw-bold fs-5 border-0"> Agregar al carrito</a>
                         </div>
                     </div>
                 </div>
@@ -135,14 +113,14 @@
                         <div>
                             <img src="img/producto5.jpg" alt="producto 3" class="card-img-top" />
                         </div>
-                        <div class="card-body d-grid gap-2 btn-primary">
+                        <div class="card-body d-grid gap-2 bg-primary">
                             <H3>Producto 5</H3>
-                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum commodi
+                            <p class="text-light fs-6"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum commodi
                                 obcaecati ,
                                 obcaecati
                                 mollitia corrupti.</p>
-                            <P class="fs-3 fw-bold">$10,000.000</P>
-                            <a href="#" class="btn btn-sm btn-success"> Agregar al carrito</a>
+                            <P class="fs-3 fw-bold text-light">$10,000.000</P>
+                            <a href="#" class="btn btn-sm btn-success fw-bold fs-5 border-0"> Agregar al carrito</a>
                         </div>
                     </div>
                 </div>
@@ -152,14 +130,14 @@
                         <div>
                             <img src="img/producto6.jpg" alt="producto 3" class="card-img-top" />
                         </div>
-                        <div class="card-body d-grid gap-2 btn-primary">
+                        <div class="card-body d-grid gap-2 bg-primary">
                             <H3>Producto 6</H3>
-                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum commodi
+                            <p class="text-light fs-6"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum commodi
                                 obcaecati ,
                                 obcaecati
                                 mollitia corrupti.</p>
-                            <P class="fs-3 fw-bold">$10,000.000</P>
-                            <a href="#" class="btn btn-sm btn-success"> Agregar al carrito</a>
+                            <P class="fs-3 fw-bold text-light">$10,000.000</P>
+                            <a href="#" class="btn btn-sm btn-success fw-bold fs-5 border-0"> Agregar al carrito</a>
                         </div>
                     </div>
                 </div>
@@ -170,15 +148,15 @@
     </main>
     <section>
         <div class="container text-center">
-            <h2 class="mt-4">Categorias</h2>
+            <h2 class="mt-4 fs-1">Categorias</h2>
             <div class="row mt-4">
                 <div class="col-sm-12 col-md-4 col-lg-4 py-2">
                     <div class="card shadow">
                         <div>
                             <img src="img/categoria1.jpg" alt="catoria 1" class="card-img-top">
                         </div>
-                        <div class="card-body d-grid gap-2 bg-primary">
-                            <a href="#" class="text-decoration-none text-white fs-3"> CATEGORIA 1</a>
+                        <div class="card-body d-grid gap-2 bg-light">
+                            <a href="#" class="text-decoration-none text-black fs-4"> CATEGORIA 1</a>
                         </div>
                     </div>
                 </div>
@@ -187,8 +165,8 @@
                         <div>
                             <img src="img/categoria2.jpg" alt="catoria 2" class="card-img-top">
                         </div>
-                        <div class="card-body d-grid gap-2 bg-primary">
-                            <a href="#" class="text-decoration-none text-white fs-3"> CATEGORIA 2</a>
+                        <div class="card-body d-grid gap-2 bg-light">
+                            <a href="#" class="text-decoration-none text-black fs-4"> CATEGORIA 2</a>
                         </div>
                     </div>
                 </div>
@@ -197,8 +175,8 @@
                         <div>
                             <img src="img/categoria3.jpg" alt="catoria 3" class="card-img-top">
                         </div>
-                        <div class="card-body d-grid gap-2 bg-primary">
-                            <a href="#" class="text-decoration-none text-white fs-3"> CATEGORIA 3</a>
+                        <div class="card-body d-grid gap-2 bg-light">
+                            <a href="#" class="text-decoration-none text-black fs-4"> CATEGORIA 3</a>
 
                         </div>
                     </div>
@@ -213,7 +191,7 @@
                     <div>
                         <h3>Mas informacion</h3>
                     </div>
-                    <div class="list-group list-group-flush">
+                    <div class="list-group list-group-flush fs-5">
                         <nav>
                             <a href="#" class="list-group text-decoration-none">Cocina</a>
                             <a href="#" class="list-group text-decoration-none">Oficina</a>
@@ -227,7 +205,7 @@
                     <div>
                         <h3>Sobre nosotros</h3>
                     </div>
-                    <div class="list-group list-group-flush">
+                    <div class="list-group list-group-flush fs-5">
                         <nav>
                             <a href="#" class="list-group text-decoration-none">Nuestra historia</a>
                             <a href="#" class="list-group text-decoration-none">Misio</a>
@@ -241,7 +219,7 @@
                     <div>
                         <h3>Soporte</h3>
                     </div>
-                    <div class="list-group list-group-flush">
+                    <div class="list-group list-group-flush fs-5">
                         <nav>
                             <a href="#" class="list-group text-decoration-none text-decoration-none">Preguntas
                                 freguntas</a>
@@ -259,5 +237,4 @@
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
         crossorigin="anonymous"></script>
 </body>
-
 </html>

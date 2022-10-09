@@ -7,18 +7,43 @@ body {
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Montserrat', sans-serif;
+}
 
+.bg-primary {
+    background: #0d8fd9 !important;
+}
+
+.btn-success {
+    background: #00b22d !important;
+}
+
+@media (max-width: 991px) {
+    .producto img {
+        object-fit: cover;
+        background-color: black;
+        height: 330px;
+        width: 600px;;
+    }
+    .card-body p{
+        font-size: 12px !important;
+    }
+    .card-body a{
+        font-size: 12px !important;
+    }
+    .producto1 p{
+        font-size: 12px !important;  
+    }
+    .producto1 a{
+        font-size: 12px !important;  
+    }
+    h1{
+    visibility: hidden;
+    }
 
 }
 
 .container {
-    background-color: white;
-    
-
-
-}
-
-header {
     background-color: white;
 
 }
@@ -34,11 +59,27 @@ H1 {
     text-align: center;
     color: black;
     margin-bottom: auto;
+    font-family: 'Playfair Display', serif;
+}
+
+H2 {
+    font-family: 'Abyssinica SIL', serif;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
 }
 
 h3 {
     color: white;
     text-align: center;
+    font-family: 'Abyssinica SIL', serif;
+    font-weight: bold;
+}
+
+.nombre-sitio {
+    font-family: 'Playfair Display', serif;
 }
 
 .list-group {
@@ -52,26 +93,8 @@ h3 {
 
 
 
-@media (max-width:780px) {
-    .card-body {
-        font-size: 10px;
-    }
 
-.carta{
-    width: 125%;
-}
 
-@media (min-width: 768px){
-    .producto img{
-        height: 45rem;
-        width: 100%;
-        object-fit: cover;
-
-    }
-    .mx-auto{
-        width: 125%;
-    }
-}
 
 
 /*nav{
@@ -80,4 +103,3 @@ h3 {
     padding: 0em 1em 2em 1em;
 }
 */
-.
