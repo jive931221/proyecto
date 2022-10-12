@@ -28,7 +28,7 @@ body {
 @media (max-width: 991px) {
     .producto img {
         object-fit: cover;
-        height: 450px;
+        height: 500px;
         width: 100%;
     }
 
@@ -47,6 +47,7 @@ body {
     .producto1 a {
         font-size: 18px !important;
     }
+
     h1 {
         visibility: hidden;
     }
@@ -55,16 +56,27 @@ body {
         font-size: 1.5rem !important;
     }
 }
+
+@media (max-width: 767px) {
+    header nav a::before {
+        visibility: hidden;
+    }
+
+    header nav a:hover:before {
+        visibility: hidden;
+    }
+
+}
+
 .container-xl {
     background-color: white;
 }
 
-.Hero {
-    background-image: url(../img/principal.jpg);
-    height: 35rem;
-    background-size: cover;
-    background-position: center center;
+.carousel-item img {
+    height: 35rem !important;
+    object-fit: cover !important;
 }
+
 
 H1 {
     text-align: center;
