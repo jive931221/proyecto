@@ -65,6 +65,10 @@ body {
     header nav a:hover:before {
         visibility: hidden;
     }
+    .carousel-item img{
+        height: 17rem !important;   
+    }
+
 
 }
 
@@ -73,8 +77,8 @@ body {
 }
 
 .carousel-item img {
-    height: 35rem !important;
-    object-fit: cover !important;
+    height: 35rem;
+    object-fit: cover;
 }
 
 
