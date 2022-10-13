@@ -39,6 +39,9 @@ body {
     header nav a::before {
         visibility: hidden;
     }
+    .producto img{
+        height: auto; 
+    }
 
     header nav a:hover:before {
         visibility: hidden;
