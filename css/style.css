@@ -20,40 +20,18 @@ body {
 
 
 .producto img {
-    object-fit: cover;
-    height: 450px;
+   object-fit: cover;
+    height: 500px;
     width: 100%;
 }
 
 @media (max-width: 991px) {
-    .producto img {
-        object-fit: cover;
-        height: 500px;
-        width: 100%;
-    }
-
-    main .card-body p {
-        font-size: 18px !important;
-    }
-
-    main .card-body a {
-        font-size: 18px !important;
-    }
-
-    .producto1 p {
-        font-size: 18px !important;
-    }
-
-    .producto1 a {
-        font-size: 18px !important;
-    }
-
+    
     h1 {
         visibility: hidden;
     }
-
-    .categoria {
-        font-size: 1.5rem !important;
+    .navbar-nav a{
+        font-size: 18px !important; 
     }
 }
 
@@ -68,8 +46,7 @@ body {
     .carousel-item img{
         height: 17rem !important;   
     }
-
-
+    
 }
 
 .container-xl {
@@ -80,7 +57,6 @@ body {
     height: 35rem;
     object-fit: cover;
 }
-
 
 H1 {
     text-align: center;
