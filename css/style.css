@@ -18,13 +18,13 @@ body {
     background: #00b22d !important;
 }
 
-
+/* producto 1 cambia el tamaño de la imagen*/
 .producto img {
    object-fit: cover;
     height: 500px;
     width: 100%;
 }
-
+/*borra el titulo y cambia el tamaño de fuente de navbar*/
 @media (max-width: 991px) {
     
     h1 {
@@ -34,7 +34,7 @@ body {
         font-size: 18px !important; 
     }
 }
-
+/* quita la animacion de navbar y cambia el tamaño de carrusel*/
 @media (max-width: 767px) {
     header nav a::before {
         visibility: hidden;
@@ -55,7 +55,7 @@ body {
 .container-xl {
     background-color: white;
 }
-
+/*carrusel de imagenes modifica el tamaño*/
 .carousel-item img {
     height: 35rem;
     object-fit: cover;
@@ -89,7 +89,7 @@ h3 {
 a {
     font-family: 'Poppins', sans-serif;
 }
-
+/* footer*/
 .list-group {
     color: white;
     text-align: center;
@@ -100,6 +100,8 @@ a {
     margin-bottom: 1em;
     font-family: 'Abyssinica SIL', serif;
 }
+
+/* efecto navbar*/
 header nav a {
     margin-left: 75px;
     padding: 2px 0;
@@ -127,7 +129,7 @@ header nav a:hover:before {
     width: 100%;
 }
 
-
+/* Efecto en la imagenes de catalogo*/
 .cat img {
     transition-property: transform;
     transition-duration: 300ms;
